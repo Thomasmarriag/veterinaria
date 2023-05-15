@@ -8,11 +8,15 @@ header{
     border: 3px solid blue;
     height: 100px;
     text-align: center;
+    background-color: rgb(210, 204, 204);
 }
 nav{
+    display: flex;
+    justify-content: space-around;     
     border: 3px solid black;
     height: 80px;
     margin: 5px 0px 5px 0px;
+    background-color: seagreen;
 }
 section{
     border: 3px solid green;
@@ -30,14 +34,15 @@ aside{
     margin: 7px;
 }
 article{
-    border: 3px solid brown;
+    border: 3px solid rgb(255, 255, 133);
     height: 180px;
     width: 600px;
     float: left;
     margin: 5px;
+    background-color: rgb(255, 255, 133);
 }
 nav ul li {
-    border: 3px solid blue;
+    border: 3px solid rgb(176, 174, 174);
     width: 100px; 
     display: inline-block;
     font-family: 'Roboto', sans-serif;
